@@ -1,0 +1,129 @@
+.download__btn {
+  background: var(--acid-green);
+  position: relative;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+
+.home__hero {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.home__img img {
+  object-fit: contain;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+}
+
+.motto__head {
+  font-size: 2.3rem;
+  font-style: italic;
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  padding: 20px 5px;
+}
+
+.img-fluid {
+  border-radius: 95% 40% 97% 45% /45% 94% 40% 95%;
+}
+
+.home__about {
+  background-color: #ffff00;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.home__about p {
+  font-size: 16px;
+  line-height: 1.1;
+  color: #333333;
+  font-weight: 600;
+}
+
+.home__about2 {
+  float: left;
+  text-align: left;
+  padding: 30px;
+
+}
+.home__about2 h2 {
+  color: #002d13;
+  font-size: 3.5rem;
+  font-weight: 900;
+  display: block;
+  width: 400px;
+}
+.motto__span {
+  color: #ffff00;
+}
+
+strong {
+  padding: 7px 12px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.575rem;
+  line-height: 3;
+  cursor: pointer;
+}
+
+.home__ul {
+  margin-top: 100px;
+  text-align: left;
+  float: left;
+}
+.home__items h3{
+  font-size: 24px;
+  color: #333333;
+
+}
+
+.home__items {
+  transform: rotate(15deg);
+  text-align: left;
+  float: left;
+  cursor: pointer;
+}
+.a {
+  margin-top: 0px;
+  padding: 0px;
+}
+.a{
+  margin-top: 100px;
+}
+
+.b {
+  margin-top: 200px;
+}
+
+.c{
+   margin-top: 300px;
+}
+.home__action{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+.home__action1{
+  flex-basis: 10%;
+}
+
+.home__action .home__card{
+  display: flex;
+}
+.cards{
+  flex-basis: 70%;
+}
+.home__card{
+  flex-basis: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
